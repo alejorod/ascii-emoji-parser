@@ -1,12 +1,19 @@
 {
   "name": "ascii-emoji-parser",
-  "version": "1.0.8",
-  "description": "Parsing text to transform kewords into ascii emojies.",
+  "version": "1.0.0",
+  "description": "Parsing text to transform keywords into ascii emojies.",
   "keywords": [
     "ascii",
     "emoji",
     "parser"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejorod/ascii-emoji-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alejorod/ascii-emoji-parser/issues"
+  },
   "main": "lib/ascii-emoji-parser.js",
   "scripts": {
     "build": "rollup -c",
