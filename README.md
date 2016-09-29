@@ -35,8 +35,9 @@ or download it and include it in your page with the script tag
 
 ### Documentation
 
-| **AsciiEmojiParser(str) -> AsciiEmojiParser** |
+| AsciiEmojiParser |
 | :--- |
+| **AsciiEmojiParser(str) -> AsciiEmojiParser** |
 |`AsciiEmojiParser` constructor takes in a string representing the separator to distinguish keywords.|
 | **AsciiEmojiParser::parse(str) -> str** |
 |`parse` method takes in the text to be parsed and return the parsed text, that is the input text with all keywords enclosed by the parser separator replaced with ascii emojis.|
