@@ -1,4 +1,4 @@
-import AsciiEmojiParser from './lib/ascii-emoji-parser';
+import AsciiEmojiParser from 'ascii-emoji-parser';
 
 let emojiParser = new AsciiEmojiParser(':');
 let text = 'Hey! lets :dance:!';
