@@ -1,8 +1,11 @@
 # Text to Ascii Emoji parser  ヽ(´▽`)/  
 [![Build Status](https://travis-ci.org/alejorod/ascii-emoji-parser.svg?branch=master)](https://travis-ci.org/alejorod/ascii-emoji-parser)
 [![Coverage Status](https://coveralls.io/repos/github/alejorod/ascii-emoji-parser/badge.svg?branch=master)](https://coveralls.io/github/alejorod/ascii-emoji-parser?branch=master)
+[![npm version](https://badge.fury.io/js/ascii-emoji-parser.svg)](https://badge.fury.io/js/ascii-emoji-parser)
 
 It turns text like ```whaats up? :devious_smile:``` into ```whaats up? ಠ‿ಠ```
+
+Try it out, here is a [demo](https://alejorod.github.io/ascii-emoji-parser/). ¯\\(ツ)/¯
 
 Basic usage:
 
