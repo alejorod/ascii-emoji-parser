@@ -25,4 +25,16 @@ describe('AsciiEmojiParser', () => {
       assert.strictEqual('Hey lets dance!', parser.parse(text));
     });
   });
+
+  describe('# Parser getKeywords helper', () => {
+    it('should return all 70 supported keywords', () => {
+      assert.strictEqual(70, AsciiEmojiParser.getKeywords().length);
+    });
+
+    it('should return keywords such as robot, stranger_danger and bear', () => {
+      assert.include(AsciiEmojiParser.getKeywords(), 'robot');
+      assert.include(AsciiEmojiParser.getKeywords(), 'stranger_danger');
+      assert.include(AsciiEmojiParser.getKeywords(), 'bear');
+    });
+  });
 });

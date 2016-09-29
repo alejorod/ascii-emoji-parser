@@ -98,4 +98,8 @@ export default class AsciiEmojiParser {
   parse(text) {
     return text.replace(this.regex, pattern => this.patternMapper(pattern));
   }
+
+  static getKeywords() {
+    return Object.keys(asciiEmojis);
+  }
 }

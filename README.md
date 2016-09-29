@@ -41,6 +41,8 @@ or download it and include it in your page with the script tag
 |`AsciiEmojiParser` constructor takes in a string representing the separator to distinguish keywords.|
 | **AsciiEmojiParser::parse(str) -> str** |
 |`parse` method takes in the text to be parsed and return the parsed text, that is the input text with all keywords enclosed by the parser separator replaced with ascii emojis.|
+| **AsciiEmojiParser.getKeywords() -> Array[str]** |
+|`getKeywords` static method returns all the supported keywords by the emoji parser.|
 
 ### Supported Emojis
 
